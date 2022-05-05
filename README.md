@@ -14,4 +14,5 @@ At the moment the following calculators are implemented:
 * Bmi - Body Mass Index
 * Sofa - Sequential Organ Failure Assessment (SOFA) severity of illness score for hospital mortality
 * Saps2 - Simplified Acute Physiology Score (SAPS) II calculator to predict hospital mortality
-* CKD-EPI - Chronic kidney disease epidemiology collaboration formula to estimate the glomerular filtration rate (GFR)
+* CkdEpi - Chronic kidney disease epidemiology collaboration (CKD-EPI) formula to estimate the glomerular filtration rate (GFR)
+* Grace - Global Registry of Acute Coronary Events

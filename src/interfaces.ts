@@ -24,7 +24,7 @@ export interface CalculationResult {
     /**
      * additional result values
      */
-    additionalValues?: { [key: string]: ValueType };
+    additionalValues?: { [key: string]: any };
     /**
      * risk grade (if applicable)
      */
