@@ -1,6 +1,6 @@
 {
   "name": "medcalc",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "medical calculators",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -18,7 +18,8 @@
     "SAPS2",
     "CKD-EPI",
     "GRACE",
-    "HAS-BLED"
+    "HAS-BLED",
+    "CHA2DS2-VASc"
   ],
   "author": "Pavel Ishenin",
   "license": "ISC",
