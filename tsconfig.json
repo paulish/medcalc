@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+      "target": "ESNext",
+      "module": "CommonJS",
+      "moduleResolution": "node",
+      "declaration": true,
+      "strict": true,
+      "strictPropertyInitialization": false,
+      "useUnknownInCatchVariables": false,
+      "useDefineForClassFields": true,
+      "experimentalDecorators": true,
+      "sourceMap": true,
+      "outDir": "lib"
+  },
+  "include": ["src/**/*"]
+}
