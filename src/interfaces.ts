@@ -11,6 +11,11 @@ export enum RiskLevel {
     Critical = 3
 }
 
+export enum Gender {
+    Male = 0,
+    Female = 1
+}
+
 export interface CalculationResult {
     /**
      * calculation result value
