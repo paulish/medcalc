@@ -16,6 +16,7 @@
     "comma-dangle": ["error", "never"],
     "class-methods-use-this": "off",
     "default-case": "off",
+    "no-plusplus": "off",
     "@typescript-eslint/explicit-function-return-type": "off",
     "@typescript-eslint/member-delimiter-style": 0,
     "@typescript-eslint/no-explicit-any": 1,

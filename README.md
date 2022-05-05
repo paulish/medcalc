@@ -16,3 +16,4 @@ At the moment the following calculators are implemented:
 * Saps2 - Simplified Acute Physiology Score (SAPS) II calculator to predict hospital mortality
 * CkdEpi - Chronic kidney disease epidemiology collaboration (CKD-EPI) formula to estimate the glomerular filtration rate (GFR)
 * Grace - Global Registry of Acute Coronary Events
+* HasBled - HAS-BLED (Hypertension, Abnormal Renal/Liver Function, Stroke, Bleeding History or Predisposition, Labile INR, Elderly, Drugs/Alcohol Concomitantly) score

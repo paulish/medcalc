@@ -13,11 +13,12 @@
     "test": "jest"
   },
   "keywords": [
-    "bmi",
-    "sofa",
-    "saps2",
+    "BMI",
+    "SOFA",
+    "SAPS2",
     "CKD-EPI",
-    "grace"
+    "GRACE",
+    "HAS-BLED"
   ],
   "author": "Pavel Ishenin",
   "license": "ISC",
