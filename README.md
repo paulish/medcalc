@@ -18,3 +18,4 @@ At the moment the following calculators are implemented:
 * Grace - Global Registry of Acute Coronary Events
 * HasBled - HAS-BLED (Hypertension, Abnormal Renal/Liver Function, Stroke, Bleeding History or Predisposition, Labile INR, Elderly, Drugs/Alcohol Concomitantly) score
 * Cha2Ds2Vacs - CHA2DS2VACs score are clinical prediction rules for estimating the risk of stroke in people with non-rheumatic atrial fibrillation (AF), a common and serious heart arrhythmia associated with thromboembolic stroke
+* SMRT-CO - systolic blood pressure, multilobar chest radiography involvement, respiratory rate, tachycardia, confusion, and oxygenation
