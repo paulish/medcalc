@@ -16,6 +16,6 @@ describe('HasBled', () => {
             stroke: false
         });
         expect(result.value).toBe(2);
-        expect(result.riskLevel).toBe(RiskLevel.Average);
+        expect(result.riskLevel).toBe(RiskLevel.Moderate);
     });
 });

@@ -36,7 +36,7 @@ export class HasBled implements Calculator {
 
     private calcRisk(value: number) {
         if (value >= 3) return RiskLevel.High;
-        if (value === 2) return RiskLevel.Average;
+        if (value === 2) return RiskLevel.Moderate;
         return RiskLevel.Low;
     }
 

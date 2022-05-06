@@ -24,6 +24,6 @@ describe('CKD-EPi', () => {
         });
         expect(result.value).toBe(54);
         expect(result.additionalValues.stage).toBe(CkdStage.C3A);
-        expect(result.riskLevel).toBe(RiskLevel.Average);
+        expect(result.riskLevel).toBe(RiskLevel.Moderate);
     });
 });

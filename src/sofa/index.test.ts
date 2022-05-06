@@ -4,8 +4,8 @@ describe('Sofa', () => {
     test('test1', () => {
         const sofa = new Sofa();
         const result = sofa.calculate({
-            fio2: 90,
-            pao2: 85,
+            fiO2: 90,
+            paO2: 85,
             mechanicalVentilation: false,
             platelets: 25,
             glazgow: 9,

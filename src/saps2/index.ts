@@ -41,11 +41,11 @@ export interface Saps2Values extends BaseValues {
     /**
      * mmHg
      */
-    pao2: number;
+    paO2: number;
     /**
      * %
      */
-    fio2: number;
+    fiO2: number;
     /**
      * L/day
      */
@@ -121,7 +121,7 @@ export class Saps2 implements Calculator {
 
         // Oxygenation
         if (values.mechanicalVentilation) {
-            const respIndex = Math.round((values.pao2 * 100) / values.fio2);
+            const respIndex = Math.round((values.paO2 * 100) / values.fiO2);
             if (respIndex < 100) value += 11;
             else if (respIndex >= 200) value += 6;
             else value += 9;

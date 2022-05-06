@@ -76,7 +76,7 @@ export class Cha2Ds2Vasc implements Calculator {
 
         let riskLevel = RiskLevel.Low;
         if (value >= 2) riskLevel = RiskLevel.High;
-        else if (value === 1) riskLevel = RiskLevel.Average;
+        else if (value === 1) riskLevel = RiskLevel.Moderate;
 
         return {
             value,

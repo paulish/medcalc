@@ -61,10 +61,10 @@ export class CkdEpi implements Calculator {
             return { stage: CkdStage.C4, riskLevel: RiskLevel.High };
         }
         if (value <= 44) {
-            return { stage: CkdStage.C3B, riskLevel: RiskLevel.Average };
+            return { stage: CkdStage.C3B, riskLevel: RiskLevel.Moderate };
         }
         if (value <= 59) {
-            return { stage: CkdStage.C3A, riskLevel: RiskLevel.Average };
+            return { stage: CkdStage.C3A, riskLevel: RiskLevel.Moderate };
         }
         if (value <= 89) {
             return { stage: CkdStage.C2, riskLevel: RiskLevel.Low };

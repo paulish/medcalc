@@ -27,11 +27,11 @@ interface SofaValuesBase extends BaseValues {
     /**
      * mmHg
      */
-    pao2: number;
+    paO2: number;
     /**
      * %
      */
-    fio2: number;
+    fiO2: number;
     /**
      * On mechanical ventilation including CPAP
      */
@@ -113,7 +113,7 @@ export class Sofa implements Calculator {
         const result = {
             value: 0,
             additionalValues: {
-                resperatoryIndex: Math.round((values.pao2 * 100) / values.fio2),
+                resperatoryIndex: Math.round((values.paO2 * 100) / values.fiO2),
                 breath: 0,
                 coagulation: 0,
                 liver: 0,

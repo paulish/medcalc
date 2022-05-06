@@ -4,9 +4,13 @@ import {
 } from '../interfaces';
 
 export interface GraceValues extends BaseValues {
-    // years
+    /**
+     * years
+     */
     age: number;
-    // bpm
+    /**
+     * bpm
+     */
     heartRate: number;
     /**
      * mmHg
@@ -71,20 +75,20 @@ export class Grace implements Calculator {
         if (raiseST) {
             if (inHospital) {
                 if (grace > 154) return { riskLevel: RiskLevel.High, mortality: '> 5%' };
-                if (grace >= 126) return { riskLevel: RiskLevel.Average, mortality: '2-5%' };
+                if (grace >= 126) return { riskLevel: RiskLevel.Moderate, mortality: '2-5%' };
                 return { riskLevel: RiskLevel.Low, mortality: '< 2%' };
             }
             if (grace > 127) return { riskLevel: RiskLevel.High, mortality: '> 11%' };
-            if (grace >= 100) return { riskLevel: RiskLevel.Average, mortality: '4.5-11%' };
+            if (grace >= 100) return { riskLevel: RiskLevel.Moderate, mortality: '4.5-11%' };
             return { riskLevel: RiskLevel.Low, mortality: '< 4.5%' };
         }
         if (inHospital) {
             if (grace > 140) return { riskLevel: RiskLevel.High, mortality: '> 3%' };
-            if (grace >= 109) return { riskLevel: RiskLevel.Average, mortality: '1-3%' };
+            if (grace >= 109) return { riskLevel: RiskLevel.Moderate, mortality: '1-3%' };
             return { riskLevel: RiskLevel.Low, mortality: '< 1%' };
         }
         if (grace > 118) return { riskLevel: RiskLevel.High, mortality: '> 8%' };
-        if (grace >= 89) return { riskLevel: RiskLevel.Average, mortality: '3-8%' };
+        if (grace >= 89) return { riskLevel: RiskLevel.Moderate, mortality: '3-8%' };
         return { riskLevel: RiskLevel.Low, mortality: '< 3%' };
     }
 

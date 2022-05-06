@@ -6,7 +6,7 @@ export interface BaseValues {
 
 export enum RiskLevel {
     Low = 0,
-    Average = 1,
+    Moderate = 1,
     High = 2,
     Critical = 3
 }
@@ -14,6 +14,16 @@ export enum RiskLevel {
 export enum Gender {
     Male = 0,
     Female = 1
+}
+
+export enum ConsciousnessLevel {
+    Clear = 0,
+    ModerateStun = 1,
+    DeepStun = 2,
+    Sopor = 3,
+    Coma1Degree = 4,
+    Coma2Degree = 5,
+    Coma3Degree = 6
 }
 
 export interface CalculationResult {

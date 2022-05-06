@@ -56,7 +56,7 @@ export class Bmi implements Calculator {
         }
         if (value <= 18.5) {
             // 17-18.5
-            return { level: BmiLevel.MildThinness, riskLevel: RiskLevel.Average };
+            return { level: BmiLevel.MildThinness, riskLevel: RiskLevel.Moderate };
         }
         if (value <= 25) {
             // 18.5-25
@@ -64,7 +64,7 @@ export class Bmi implements Calculator {
         }
         if (value <= 30) {
             // 25-30
-            return { level: BmiLevel.Overweight, riskLevel: RiskLevel.Average };
+            return { level: BmiLevel.Overweight, riskLevel: RiskLevel.Moderate };
         }
         if (value <= 35) {
             // 30-35

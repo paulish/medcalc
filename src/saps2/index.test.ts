@@ -6,8 +6,8 @@ describe('Saps2', () => {
         const result = saps2.calculate({
             age: 45,
             mechanicalVentilation: true,
-            fio2: 90,
-            pao2: 85,
+            fiO2: 90,
+            paO2: 85,
             heartRate: 70,
             systolicBP: 120,
             temperature: 37,
