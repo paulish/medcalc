@@ -26,6 +26,13 @@ export enum ConsciousnessLevel {
     Coma3Degree = 6
 }
 
+export enum KillipClass {
+    I = 1,
+    II = 2,
+    III = 3,
+    IV = 4
+}
+
 export interface CalculationResult {
     /**
      * calculation result value

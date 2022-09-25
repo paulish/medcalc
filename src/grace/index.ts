@@ -1,6 +1,6 @@
 import {
     BaseValues, CalculationResult,
-    Calculator, RiskLevel
+    Calculator, KillipClass, RiskLevel
 } from '../interfaces';
 
 export interface GraceValues extends BaseValues {
@@ -23,7 +23,7 @@ export interface GraceValues extends BaseValues {
     /**
      * Killip class (I - IV)
      */
-    killip: number;
+    killip: KillipClass;
     /**
      * Heart attack on presentation
      */
@@ -132,13 +132,13 @@ export class Grace implements Calculator {
 
         // Killip
         switch (values.killip) {
-            case 2:
+            case KillipClass.II:
                 value += 20;
                 break;
-            case 3:
+            case KillipClass.III:
                 value += 39;
                 break;
-            case 4:
+            case KillipClass.IV:
                 value += 59;
                 break;
         }

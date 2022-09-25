@@ -1,5 +1,5 @@
 import { Grace } from '.';
-import { RiskLevel } from '../interfaces';
+import { KillipClass, RiskLevel } from '../interfaces';
 
 describe('Sofa', () => {
     test('test1', () => {
@@ -9,7 +9,7 @@ describe('Sofa', () => {
             heartRate: 90,
             systolicBP: 120,
             creatinine: 100,
-            killip: 1,
+            killip: KillipClass.I,
             cardiacArrest: false,
             elevatedCardiacEnzymes: false,
             segmentSTDeviation: false
