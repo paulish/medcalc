@@ -1,6 +1,6 @@
 {
   "name": "medcalc",
-  "version": "0.7.1",
+  "version": "0.8.0",
   "description": "medical calculators",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -21,7 +21,8 @@
     "HAS-BLED",
     "CHA2DS2-VASc",
     "Precise DAPT",
-    "SCORE"
+    "SCORE",
+    "NEWS2"
   ],
   "author": "Pavel Ishenin",
   "license": "ISC",
