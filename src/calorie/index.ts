@@ -79,9 +79,9 @@ export class Calorie implements Calculator {
         return {
             value: 0,
             additionalValues: {
-                HarrisBenedict: HarrisBenedict * multiplier,
-                MiffinJeor: MiffinJeor * multiplier,
-                TomVenuto: TomVenuto * multiplier
+                HarrisBenedict: Math.round(HarrisBenedict * multiplier),
+                MiffinJeor: Math.round(MiffinJeor * multiplier),
+                TomVenuto: Math.round(TomVenuto * multiplier)
             }
         };
     }
