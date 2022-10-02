@@ -12,6 +12,7 @@ Where `meta` returns the base meta information about the calculator and `calcula
 
 At the moment the following calculators are implemented:
 * Bmi - Body Mass Index
+* Calorie - The number of calories a person needs to consume each day
 * Sofa - Sequential Organ Failure Assessment (SOFA) severity of illness score for hospital mortality
 * Saps2 - Simplified Acute Physiology Score (SAPS) II calculator to predict hospital mortality
 * CkdEpi - Chronic kidney disease epidemiology collaboration (CKD-EPI) formula to estimate the glomerular filtration rate (GFR)
